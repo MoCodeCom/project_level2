@@ -1,0 +1,340 @@
+
+<!--home page------------------------------------------------------------------------------->
+
+body{
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: right;
+    background-color: red;
+    height: 50px;
+}
+
+header div{
+    display: inline;
+    padding: 0px;
+    justify-content: center;
+}
+
+header button{
+    
+    border: 0px;
+    width: 90px;
+    height: 100%;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+header button:hover{
+    background-color: #FFF4F2;
+    color: black;
+}
+
+footer{
+    display: flex;
+    height: 200px;
+    background-color: black;
+}
+
+footer part1{
+    background-color: red;
+}
+
+
+#logo{
+    float: left;
+    width: 130px;
+    height: 50px;
+}
+
+#btn6{
+    margin-left: 30px;
+}
+
+#homepagebody{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+#homeimg{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+#homepagebody label{
+    position:absolute;
+    right: 0;
+    margin-top: 20%;
+    margin-right: 10%;
+    color: white;
+    font-size: 26px;
+    width: 500px;
+    background-color: black;
+    padding: 5px;
+}
+
+#btndonate{
+    position:absolute;
+    bottom: unset;
+    right: 0;
+    margin-top: 30%;
+    margin-right: 10%;
+    width: 13%;
+    height: 30px;
+    border-radius: 9px;
+    border:0px;
+    background-color: red;
+    color: white;
+}
+
+#btndonate:hover{
+    background-color: white;
+    color: black;
+}
+
+#btnreadmore{
+    position:absolute;
+    bottom: unset;
+    right: 0;
+    margin-top: 30%;
+    margin-right: 25%;
+    width: 13%;
+    height: 30px;
+    border-radius: 9px;
+    border:0px;
+    background-color: red;
+    color: white;
+}
+
+#btnreadmore:hover{
+    background-color: white;
+    color: black;
+}
+
+#searchinput{
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 10px;
+    width: 30%;
+    height: 30px;
+    right: 0;
+}
+
+
+
+#section2{
+    margin-top: 43%;
+    padding: 10px;
+    
+}
+
+#welcomesection-title{
+    text-align: center;
+    background-color:transparent;
+    color: white;
+}
+
+#welcomesection{
+    text-align: justify;
+    margin-left: 7%;
+    margin-right: 7%;
+    background-color: #535366;
+    color: white;
+    padding: 5px 10% 10px 10%;
+    line-height: 1.5;
+    
+}
+
+
+#contextsection{
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+
+#newssection{
+    background-color: white;
+    border: 0px;
+    width: 50%;
+    padding: 10px;
+}
+
+#newssection img{
+    width: 400px;
+}
+#newssection h4{
+    background-color: transparent;
+    text-align: center;
+    font-size: 15px;
+}
+#newssection p{
+    margin: 10px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
+#welcome_sectoin_btn{
+    width: 13%;
+    height: 30px;
+    border-radius: 9px;
+    border:0px;
+}
+
+#welcome_sectoin_btn:hover{
+    color: white;
+    background-color: #535366;
+    border:2px solid white;
+}
+
+#newsection_chart{
+    width: 100%;
+    display:inline-flex;
+}
+
+#newsection_chart div{
+    border: 2px solid #5aa153;
+    width: 100%;
+    height: 37px;
+    padding: 2px;
+    margin: auto 5px auto 5px;
+}
+
+#newsection_chart div div{
+    background-color: #5aa153;
+    width: 50%;
+    height: 30px;
+    margin: 0;
+}
+
+
+#serivcessection{
+    margin-left: 3%;
+    background-color:transparent;
+    width: 100%;
+}
+
+#serivcessection h3{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+#serivcessection_container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+#grid_item{
+    height:inherit;
+    text-align: center;
+    
+}
+
+#grid_item img{
+    width: 60px;
+}
+
+#grid_item h4{
+    margin: 0px;
+    border: 2px solid red;
+}
+
+#grid_item p{
+    margin:3px auto auto auto;
+    padding: 3px;
+    font-size: 15px;
+}
+
+
+footer part1{
+    width: 35%;
+    color: white;
+    z-index: 20;
+}
+
+part2{
+    color: white;
+}
+
+@media only screen and (max-width:1000px) {
+    #homepagebody label{
+        font-size: 16px;
+    }
+    #contextsection{
+        display: inline-block;
+    }
+
+    #newssection{
+        width: 100%;
+        text-align: center;
+    }
+
+    #newssection img{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    #homepagebody label{
+        display: none;
+    }
+}
+
+
+/*Gallery page-------------------------------------------------------------------------------*/
+#section_gallery_1{
+	display: grid; 
+	grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+	gap:10px
+	width:100%;
+	height:100%;
+}
+
+
+#img_gallery_1{
+	width:50%;
+}
+
+#img_gallery_2{
+	width:50%;
+}
+#img_gallery_3{
+	width:50%;
+}
+#img_gallery_4{
+	width:50%;
+}
+#img_gallery_5{
+	width:50%;
+}
+
+#img_gallery_6{
+	width:50%;
+}
+
+#img_gallery_7{
+	width:50%;
+}
+
+
+
+
+/*--Events page-------------------------------------------------------------------------------*/
+/*--Contact page-------------------------------------------------------------------------------*/
+/*--AboutUs page-------------------------------------------------------------------------------*/
